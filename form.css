@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    size: 5em;
+}
+form{
+    height: 500px;
+    width: 500px;
+    margin-left:330px;
+    font-family: 'Rubik', sans-serif;
+}
+#fname{
+    height: 40px;
+    width: 150px;
+    padding-left: 15px;
+}
+#lnt{
+    margin:80px;
+}
+#lname{
+    height: 40px;
+    width: 150px;
+    padding-left: 15px;
+}
+#email{
+    height: 40px;
+    /* width: 150px; */
+    padding-left: 15px;
+}
+#password{
+    height: 40px;
+    /* width: 150px; */
+    padding-left: 15px;
+}
+#reenter{
+    height: 40px;
+    /* width: 150px; */
+    padding-left: 15px;
+}
+#sign{
+    height: 40px;
+    width: 350px;
+    background-image: linear-gradient(to right, #577df8, #7f7cfd);
+    border-radius: 10px;
+    box-shadow:2px 2px 20px grey;  
+    border: none;
+    color: white;
+}
+#login{
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    color: #577df8;
+    border: none;
+    box-shadow:2px 2px 5px grey;
+}
+#login:hover{
+    font-size: 1em;
+}
+@media screen and (max-width: 627px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{
+        text-align: left;
+    }
+    form{
+        height: 80vh;
+        width: 100vw;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        font-family: 'Rubik', sans-serif;
+    }
+    #lname{
+        height: 40px;
+        width: 150px;
+        padding-left: 15px;
+        /* position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%; */
+    }
+    #email{
+        height: 40px;
+        /* width: 150px;  */
+        padding-left: 10px;
+    }
+    #password{
+        height: 40px;
+         /* width: 150px;  */
+        padding-left: 10px;
+    }
+    #reenter{
+        height: 40px;
+        /* width: 150px;  */
+        padding-left: 10px;
+    }
+    #sign{
+        height: 40px;
+        width: 150px;
+        margin-left: 40px;
+        background-image: linear-gradient(to right, #577df8, #7f7cfd);
+        border-radius: 10px;
+        box-shadow:2px 2px 20px grey;  
+        border: none;
+        color: white;
+    }
+    #login{
+        height: 40px;
+        width: 150px;
+        margin-left: 40px;
+        background-color: white;
+        border-radius: 10px;
+        color: #577df8;
+        border: none;
+        box-shadow:2px 2px 5px grey;
+    }
+}
